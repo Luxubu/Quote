@@ -13,8 +13,8 @@
 		305B965123612DEC005CD0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305B965023612DEC005CD0E1 /* Assets.xcassets */; };
 		305B965423612DEC005CD0E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305B965323612DEC005CD0E1 /* Preview Assets.xcassets */; };
 		305B965723612DEC005CD0E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305B965523612DEC005CD0E1 /* LaunchScreen.storyboard */; };
-		305B966223612DEC005CD0E1 /* FirstUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305B966123612DEC005CD0E1 /* FirstUiTests.swift */; };
-		305B966D23612DEC005CD0E1 /* FirstUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305B966C23612DEC005CD0E1 /* FirstUiUITests.swift */; };
+		305B966223612DEC005CD0E1 /* QuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305B966123612DEC005CD0E1 /* QuoteTests.swift */; };
+		305B966D23612DEC005CD0E1 /* QuoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305B966C23612DEC005CD0E1 /* QuoteUITests.swift */; };
 		30996EE22380A51200DF7C32 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30996EE12380A51200DF7C32 /* Quote.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,19 +24,19 @@
 			containerPortal = 305B963F23612DE9005CD0E1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 305B964623612DE9005CD0E1;
-			remoteInfo = FirstUi;
+			remoteInfo = Quote;
 		};
 		305B966923612DEC005CD0E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 305B963F23612DE9005CD0E1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 305B964623612DE9005CD0E1;
-			remoteInfo = FirstUi;
+			remoteInfo = Quote;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		305B964723612DE9005CD0E1 /* FirstUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		305B964723612DE9005CD0E1 /* Quote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		305B964A23612DE9005CD0E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		305B964C23612DE9005CD0E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		305B964E23612DE9005CD0E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,11 +44,11 @@
 		305B965323612DEC005CD0E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		305B965623612DEC005CD0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		305B965823612DEC005CD0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		305B965D23612DEC005CD0E1 /* FirstUiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstUiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		305B966123612DEC005CD0E1 /* FirstUiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUiTests.swift; sourceTree = "<group>"; };
+		305B965D23612DEC005CD0E1 /* QuoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		305B966123612DEC005CD0E1 /* QuoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTests.swift; sourceTree = "<group>"; };
 		305B966323612DEC005CD0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		305B966823612DEC005CD0E1 /* FirstUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		305B966C23612DEC005CD0E1 /* FirstUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUiUITests.swift; sourceTree = "<group>"; };
+		305B966823612DEC005CD0E1 /* QuoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		305B966C23612DEC005CD0E1 /* QuoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteUITests.swift; sourceTree = "<group>"; };
 		305B966E23612DEC005CD0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30996EE12380A51200DF7C32 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,9 +81,9 @@
 		305B963E23612DE9005CD0E1 = {
 			isa = PBXGroup;
 			children = (
-				305B964923612DE9005CD0E1 /* FirstUi */,
-				305B966023612DEC005CD0E1 /* FirstUiTests */,
-				305B966B23612DEC005CD0E1 /* FirstUiUITests */,
+				305B964923612DE9005CD0E1 /* Quote */,
+				305B966023612DEC005CD0E1 /* QuoteTests */,
+				305B966B23612DEC005CD0E1 /* QuoteUITests */,
 				305B964823612DE9005CD0E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		305B964823612DE9005CD0E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				305B964723612DE9005CD0E1 /* FirstUi.app */,
-				305B965D23612DEC005CD0E1 /* FirstUiTests.xctest */,
-				305B966823612DEC005CD0E1 /* FirstUiUITests.xctest */,
+				305B964723612DE9005CD0E1 /* Quote.app */,
+				305B965D23612DEC005CD0E1 /* QuoteTests.xctest */,
+				305B966823612DEC005CD0E1 /* QuoteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		305B964923612DE9005CD0E1 /* FirstUi */ = {
+		305B964923612DE9005CD0E1 /* Quote */ = {
 			isa = PBXGroup;
 			children = (
 				305B964A23612DE9005CD0E1 /* AppDelegate.swift */,
@@ -110,7 +110,7 @@
 				305B965823612DEC005CD0E1 /* Info.plist */,
 				305B965223612DEC005CD0E1 /* Preview Content */,
 			);
-			path = FirstUi;
+			path = Quote;
 			sourceTree = "<group>";
 		};
 		305B965223612DEC005CD0E1 /* Preview Content */ = {
@@ -121,30 +121,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		305B966023612DEC005CD0E1 /* FirstUiTests */ = {
+		305B966023612DEC005CD0E1 /* QuoteTests */ = {
 			isa = PBXGroup;
 			children = (
-				305B966123612DEC005CD0E1 /* FirstUiTests.swift */,
+				305B966123612DEC005CD0E1 /* QuoteTests.swift */,
 				305B966323612DEC005CD0E1 /* Info.plist */,
 			);
-			path = FirstUiTests;
+			path = QuoteTests;
 			sourceTree = "<group>";
 		};
-		305B966B23612DEC005CD0E1 /* FirstUiUITests */ = {
+		305B966B23612DEC005CD0E1 /* QuoteUITests */ = {
 			isa = PBXGroup;
 			children = (
-				305B966C23612DEC005CD0E1 /* FirstUiUITests.swift */,
+				305B966C23612DEC005CD0E1 /* QuoteUITests.swift */,
 				305B966E23612DEC005CD0E1 /* Info.plist */,
 			);
-			path = FirstUiUITests;
+			path = QuoteUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		305B964623612DE9005CD0E1 /* FirstUi */ = {
+		305B964623612DE9005CD0E1 /* Quote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 305B967123612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "FirstUi" */;
+			buildConfigurationList = 305B967123612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "Quote" */;
 			buildPhases = (
 				305B964323612DE9005CD0E1 /* Sources */,
 				305B964423612DE9005CD0E1 /* Frameworks */,
@@ -154,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = FirstUi;
-			productName = FirstUi;
-			productReference = 305B964723612DE9005CD0E1 /* FirstUi.app */;
+			name = Quote;
+			productName = Quote;
+			productReference = 305B964723612DE9005CD0E1 /* Quote.app */;
 			productType = "com.apple.product-type.application";
 		};
-		305B965C23612DEC005CD0E1 /* FirstUiTests */ = {
+		305B965C23612DEC005CD0E1 /* QuoteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 305B967423612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "FirstUiTests" */;
+			buildConfigurationList = 305B967423612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "QuoteTests" */;
 			buildPhases = (
 				305B965923612DEC005CD0E1 /* Sources */,
 				305B965A23612DEC005CD0E1 /* Frameworks */,
@@ -172,14 +172,14 @@
 			dependencies = (
 				305B965F23612DEC005CD0E1 /* PBXTargetDependency */,
 			);
-			name = FirstUiTests;
-			productName = FirstUiTests;
-			productReference = 305B965D23612DEC005CD0E1 /* FirstUiTests.xctest */;
+			name = QuoteTests;
+			productName = QuoteTests;
+			productReference = 305B965D23612DEC005CD0E1 /* QuoteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		305B966723612DEC005CD0E1 /* FirstUiUITests */ = {
+		305B966723612DEC005CD0E1 /* QuoteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 305B967723612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "FirstUiUITests" */;
+			buildConfigurationList = 305B967723612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "QuoteUITests" */;
 			buildPhases = (
 				305B966423612DEC005CD0E1 /* Sources */,
 				305B966523612DEC005CD0E1 /* Frameworks */,
@@ -190,9 +190,9 @@
 			dependencies = (
 				305B966A23612DEC005CD0E1 /* PBXTargetDependency */,
 			);
-			name = FirstUiUITests;
-			productName = FirstUiUITests;
-			productReference = 305B966823612DEC005CD0E1 /* FirstUiUITests.xctest */;
+			name = QuoteUITests;
+			productName = QuoteUITests;
+			productReference = 305B966823612DEC005CD0E1 /* QuoteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 305B964223612DE9005CD0E1 /* Build configuration list for PBXProject "FirstUi" */;
+			buildConfigurationList = 305B964223612DE9005CD0E1 /* Build configuration list for PBXProject "Quote" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -231,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				305B964623612DE9005CD0E1 /* FirstUi */,
-				305B965C23612DEC005CD0E1 /* FirstUiTests */,
-				305B966723612DEC005CD0E1 /* FirstUiUITests */,
+				305B964623612DE9005CD0E1 /* Quote */,
+				305B965C23612DEC005CD0E1 /* QuoteTests */,
+				305B966723612DEC005CD0E1 /* QuoteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -281,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				305B966223612DEC005CD0E1 /* FirstUiTests.swift in Sources */,
+				305B966223612DEC005CD0E1 /* QuoteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				305B966D23612DEC005CD0E1 /* FirstUiUITests.swift in Sources */,
+				305B966D23612DEC005CD0E1 /* QuoteUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		305B965F23612DEC005CD0E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 305B964623612DE9005CD0E1 /* FirstUi */;
+			target = 305B964623612DE9005CD0E1 /* Quote */;
 			targetProxy = 305B965E23612DEC005CD0E1 /* PBXContainerItemProxy */;
 		};
 		305B966A23612DEC005CD0E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 305B964623612DE9005CD0E1 /* FirstUi */;
+			target = 305B964623612DE9005CD0E1 /* Quote */;
 			targetProxy = 305B966923612DEC005CD0E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,15 +438,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FirstUi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Quote/Preview Content\"";
 				DEVELOPMENT_TEAM = NA28V729GF;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FirstUi/Info.plist;
+				INFOPLIST_FILE = Quote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Saigon.FirstUi;
+				PRODUCT_BUNDLE_IDENTIFIER = Saigon.Quote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,15 +457,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FirstUi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Quote/Preview Content\"";
 				DEVELOPMENT_TEAM = NA28V729GF;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FirstUi/Info.plist;
+				INFOPLIST_FILE = Quote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Saigon.FirstUi;
+				PRODUCT_BUNDLE_IDENTIFIER = Saigon.Quote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,18 +479,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA28V729GF;
-				INFOPLIST_FILE = FirstUiTests/Info.plist;
+				INFOPLIST_FILE = QuoteTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Saigon.FirstUiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Saigon.QuoteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstUi.app/FirstUi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quote.app/Quote";
 			};
 			name = Debug;
 		};
@@ -501,18 +501,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA28V729GF;
-				INFOPLIST_FILE = FirstUiTests/Info.plist;
+				INFOPLIST_FILE = QuoteTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Saigon.FirstUiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Saigon.QuoteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstUi.app/FirstUi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quote.app/Quote";
 			};
 			name = Release;
 		};
@@ -522,17 +522,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA28V729GF;
-				INFOPLIST_FILE = FirstUiUITests/Info.plist;
+				INFOPLIST_FILE = QuoteUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Saigon.FirstUiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Saigon.QuoteUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FirstUi;
+				TEST_TARGET_NAME = Quote;
 			};
 			name = Debug;
 		};
@@ -542,24 +542,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA28V729GF;
-				INFOPLIST_FILE = FirstUiUITests/Info.plist;
+				INFOPLIST_FILE = QuoteUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Saigon.FirstUiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Saigon.QuoteUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FirstUi;
+				TEST_TARGET_NAME = Quote;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		305B964223612DE9005CD0E1 /* Build configuration list for PBXProject "FirstUi" */ = {
+		305B964223612DE9005CD0E1 /* Build configuration list for PBXProject "Quote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				305B966F23612DEC005CD0E1 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		305B967123612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "FirstUi" */ = {
+		305B967123612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "Quote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				305B967223612DEC005CD0E1 /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		305B967423612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "FirstUiTests" */ = {
+		305B967423612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "QuoteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				305B967523612DEC005CD0E1 /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		305B967723612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "FirstUiUITests" */ = {
+		305B967723612DEC005CD0E1 /* Build configuration list for PBXNativeTarget "QuoteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				305B967823612DEC005CD0E1 /* Debug */,
